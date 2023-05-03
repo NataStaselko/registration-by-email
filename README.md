@@ -6,17 +6,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 download the file:
 
-https://github.com/NataStaselko/HelpDesk-v1/releases
-
-or
-
-https://github.com/NataStaselko/HelpDesk-v2/releases
+https://github.com/NataStaselko/registrationByEmail/releases
 
 and run the following command from your terminal:
 ```sh
-java -jar (file name).jar 
+java -jar registrationByEmail-0.0.1-SNAPSHOT.jar 
 ```
 
 then follow the link:
 
-https://natastaselko.github.io/helpdesk/
+https://natastaselko.github.io/registration-by-email/
+
