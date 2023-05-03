@@ -1,1 +1,39 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: rgb(33, 31, 31);
+    font-family: Arial, Helvetica, sans-serif; 
+    background-image:  url("./assets/back1.png") ;
+}
+.main{
+    width: 100em;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+button{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(0, 166, 255);
+    border-radius: 8px;
+    background-color:rgb(33, 32, 32);
+    box-shadow: 0px 0px 5px #26a0da, 0px 0px 2px#26a0da, 0px 0px 20px #26a0da;    
+    cursor: pointer;
+    
+}
+button:active{
+    background-color: #26a0da;
+    border: 3px solid #26a0da;
+    color: rgb(195, 238, 254);    
+}
+
+input{
+    background-color: rgb(209, 209, 201);  
+    font-size: 30px;     
+    border: 2px solid rgba(0, 166, 255, 0);
+    border-radius: 8px;
+    padding: 10px;         
+}
+input:focus{
+    outline:4px solid rgb(173, 139, 85);
+}

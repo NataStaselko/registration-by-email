@@ -1,0 +1,17 @@
+<div class="bar">
+    <div class="main">
+        <div class="conteiner">
+            <div routerLink="/">
+                <img  src="./assets/logo.png">
+            </div>
+            <div class="box-1" *ngIf="!user">
+                <button routerLink="/login">login</button>        
+                <button routerLink="/registration">registration</button>
+            </div>
+            <div class="box-2" *ngIf="user">
+                <button (click)="logout()" routerLink="/">logout</button>
+            </div>
+        </div>
+    </div>
+</div>
+
