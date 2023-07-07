@@ -6,7 +6,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 download the file:
 
-https://github.com/NataStaselko/registrationByEmail/releases
+https://disk.yandex.ru/d/NyGmWw04zWW1kw
 
 and run the following command from your terminal:
 ```sh
